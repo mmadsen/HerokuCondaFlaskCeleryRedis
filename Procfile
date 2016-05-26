@@ -1,2 +1,2 @@
-web: gunicorn --pythonpath lib test:app
+web: gunicorn --pythonpath lib web:app
 
