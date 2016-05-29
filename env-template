@@ -1,0 +1,4 @@
+export APP_SETTINGS="config.DevelopmentConfig"
+export DATABASE_URL="postgresql://localhost/wordcount_dev"
+# The following prevents a libssl.1.0.0.dylib linking error on OS X with Anaconda, allowing Flask-Migration to work
+export DYLD_FALLBACK_LIBRARY_PATH=$HOME/anaconda/lib/:$DYLD_FALLBACK_LIBRARY_PATH
