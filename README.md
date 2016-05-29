@@ -14,6 +14,16 @@ purposes of illustration, the base application name used here will be `mmadsen-t
 you should choose a unique application name.
 
 
+## Minimal Example ##
+
+The minimal example chosen to get a Flask, postgres, and Alembic application working on 
+the Anaconda buildpack with Python 3.5 is [RealPython's "Flask by Example" application](https://realpython.com/blog/python/flask-by-example-part-1-project-setup/).  I like their approach to the `Config` class and how that encapsulates all the 
+variables needed for dev, staging, and production environments.
+
+Obviously, in replacing the content here with your own application, you may want to remove the `nltk_data` directory if you're
+not using the NLTK tokenizer anymore, and of course you'll need to edit the `web.py`, `models.py`, and everything in the `templates` directory for your own purposes.  But this is a good, working starting point for a minimal web-database app.  
+
+
 ## Getting Started ##
 
 ### App Creation ###
