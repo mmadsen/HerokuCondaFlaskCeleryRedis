@@ -3,3 +3,6 @@ sqlalchemy
 flask-sqlalchemy
 flask-script
 flask-migrate
+requests
+beautifulsoup
+nltk
