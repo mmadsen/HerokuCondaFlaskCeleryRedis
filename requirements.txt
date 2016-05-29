@@ -6,3 +6,4 @@ flask-migrate
 requests
 beautifulsoup
 nltk
+stop_words
