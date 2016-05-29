@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request
 from flask.ext.sqlalchemy import SQLAlchemy
 import os
+import sys
 import requests
 import operator
 import re
@@ -32,9 +33,11 @@ def index():
 
 	if r is not None:
 		(raw_counts, stop_removed_count) = count_words_from_html(r)
+		print(raw_counts)
+		print(stop_removed_count)
 
 		# package results for web display
-		results = sorted(stop_removed_count.items(), key=operator.itemgetter(1), reverse=True)
+		results = sorted(stop_removed_count.items(), key=operator.itemgetter(1), reverse=True)[:10]
 
 		# store results in the database
 		try:
@@ -44,9 +47,10 @@ def index():
 				result_no_stop_words=stop_removed_count
 				)
 			db.session.add(db_result)
-			sb.session.commit()
-		except:
-			errors.append("Unable to add results to the database")
+			db.session.commit()
+		except Exception as e:
+			err = "Unable to add results to the database: %s" % e
+			errors.append(err)
 
 	return render_template('index.html', errors=errors, results=results)
 
