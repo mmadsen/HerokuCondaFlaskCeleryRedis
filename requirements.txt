@@ -4,6 +4,6 @@ flask-sqlalchemy
 flask-script
 flask-migrate
 requests
-beautifulsoup
+beautifulsoup4
 nltk
 stop_words
