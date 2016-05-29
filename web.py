@@ -23,6 +23,7 @@ from models import Result
 def index():
 	errors = []
 	results = {}
+	r = None  # prevents uninitialization error, which happens on Heroku but not my laptop
 	if request.method == 'POST':
 		# get the URL entered
 		try:
