@@ -11,8 +11,7 @@ scikit-learn=0.17.1
 setuptools=19.4
 werkzeug=0.11.3
 wheel=0.26.0
-Flask==0.10.1
-Flask-Migrate
-Flask-Script
-Flask-SQLAlchemy
-SQLAlchemy
+sqlalchemy
+davidbgonzalez/flask-sqlalchemy
+davidbgonzalez/flask-script
+davidbgonzalez/flask-migrate
