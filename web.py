@@ -34,8 +34,6 @@ def index():
 
 	if r is not None:
 		(raw_counts, stop_removed_count) = count_words_from_html(r)
-		print(raw_counts)
-		print(stop_removed_count)
 
 		# package results for web display
 		results = sorted(stop_removed_count.items(), key=operator.itemgetter(1), reverse=True)[:10]
