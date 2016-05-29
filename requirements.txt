@@ -1,5 +1,5 @@
 gunicorn==19.4.5
 sqlalchemy
-davidbgonzalez/flask-sqlalchemy
-davidbgonzalez/flask-script
-davidbgonzalez/flask-migrate
+flask-sqlalchemy
+flask-script
+flask-migrate
