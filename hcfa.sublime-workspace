@@ -1,0 +1,641 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"raw",
+				"raw_counts"
+			],
+			[
+				"stop",
+				"stop_removed_count"
+			],
+			[
+				"no",
+				"no_stop_counts"
+			],
+			[
+				"file",
+				"file_to_copy"
+			],
+			[
+				"seriation",
+				"seriationtype"
+			],
+			[
+				"input",
+				"inputdirectory"
+			],
+			[
+				"bas",
+				"basicConfig"
+			],
+			[
+				"todo",
+				"todo{text}	todonotes"
+			],
+			[
+				"clear",
+				"cleardoublepage	latex-document"
+			],
+			[
+				"subse",
+				"subsection{title}	latex-document"
+			],
+			[
+				"end",
+				"end{enumerate}	chapter-ct-seriation-framework.tex"
+			],
+			[
+				"boot",
+				"bootstrapdebug"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": ".env",
+			"settings":
+			{
+				"buffer_size": 304,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 7039,
+				"line_ending": "Unix",
+				"name": "# HerokuCondaFlaskAlembic:  Application Template #"
+			}
+		},
+		{
+			"file": "templates/index.html",
+			"settings":
+			{
+				"buffer_size": 1864,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "web.py",
+			"settings":
+			{
+				"buffer_size": 2277,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "models.py",
+			"settings":
+			{
+				"buffer_size": 528,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "requirements.txt",
+			"settings":
+			{
+				"buffer_size": 112,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				]
+			],
+			[
+				"Packages/Makefile/Make.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "pack",
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Enumerate"
+			],
+			[
+				"Pack",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"Package",
+				"Package Control: Install Package"
+			],
+			[
+				"Packag",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/mark/src/HerokuCondaFlaskAlembic",
+		"/Users/mark/src/HerokuCondaFlaskAlembic/migrations/versions",
+		"/Users/mark/src/HerokuCondaFlaskAlembic/templates"
+	],
+	"file_history":
+	[
+		"/Users/mark/local-research/diss/experiments/experiment-networkmodel-identification-diss/experiments/ni-complete-1000/runall.sh",
+		"/Users/mark/local-research/diss/experiments/experiment-networkmodel-identification-diss/bin/copy-seriation-output-for-classification.py",
+		"/Users/mark/local-research/diss/experiments/experiment-networkmodel-identification-diss/experiments/ni-pnn-1000/bin/simulation-postprocess-gridengine-samplesize20.sh",
+		"/Users/mark/local-research/diss/experiments/experiment-networkmodel-identification-diss/experiments/ni-pnn-1000/bin/simulation-postprocess-samplesize20.sh",
+		"/Users/mark/local-research/diss/experiments/experiment-networkmodel-identification-diss/experiments/ni-complete-1000/bin/simulation-postprocess-gridengine-samplesize20.sh",
+		"/Users/mark/local-research/diss/experiments/experiment-networkmodel-identification-diss/experiments/ni-complete-1000/bin/simulation-postprocess-samplesize20.sh",
+		"/Users/mark/local-research/diss/experiments/experiment-networkmodel-identification-diss/experiments/ni-complete-1000/bin/simulation-postprocess-gridengine.sh",
+		"/Users/mark/local-research/diss/experiments/experiment-networkmodel-identification-diss/experiments/ni-complete-1000/bin/build-seriations.sh",
+		"/Users/mark/local-research/diss/experiments/experiment-networkmodel-identification-diss/experiments/ni-complete-1000/bin/simulation-postprocess.sh",
+		"/Users/mark/local-research/diss/experiments/experiment-networkmodel-identification-diss/experiments/ni-pnn-1000/runall.sh",
+		"/Users/mark/local-research/diss/experiments/experiment-networkmodel-identification-diss/experiments/ni-pnn-1000/bin/simulation-postprocess-gridengine.sh",
+		"/Users/mark/local-research/diss/experiments/experiment-networkmodel-identification-diss/experiments/ni-pnn-1000/bin/build-seriations.sh",
+		"/Users/mark/local-research/diss/experiments/experiment-networkmkodel-identification-diss/netidentification.sublime-project",
+		"/Users/mark/local-research/diss/experiments/experiment-networkmkodel-identification-diss/experiments/ni-complete-1000/runall.sh",
+		"/Users/mark/local-research/diss/experiments/experiment-networkmkodel-identification-diss/experiments/ni-complete-1000/bin/simulation-postprocess-gridengine.sh",
+		"/Users/mark/local-research/diss/experiments/experiment-networkmkodel-identification-diss/experiments/ni-complete-1000/bin/build-seriations.sh",
+		"/Users/mark/local-research/diss/experiments/experiment-networkmkodel-identification-diss/experiments/ni-pnn-1000/bin/build-seriations.sh",
+		"/Users/mark/local-research/diss/experiments/experiment-networkmkodel-identification-diss/experiments/ni-pnn-1000/bin/build-simulations.sh",
+		"/Users/mark/local-research/diss/experiments/experiment-networkmkodel-identification-diss/experiments/ni-complete-1000/bin/simulation-postprocess.sh",
+		"/Users/mark/local-research/diss/experiments/experiment-networkmkodel-identification-diss/experiments/ni-pnn-1000/bin/simulation-postprocess-gridengine.sh",
+		"/Users/mark/local-research/diss/experiments/experiment-networkmkodel-identification-diss/experiments/ni-pnn-1000/bin/simulation-postprocess.sh",
+		"/Users/mark/local-research/diss/experiments/experiment-networkmkodel-identification-diss/experiments/ni-pnn-1000/runall.sh",
+		"/Users/mark/local-research/diss/experiments/experiment-networkmodel-identification-diss/experiments/ni-pnn-1000/bin/run-seriations-gridengine.sh",
+		"/Users/mark/local-research/diss/experiments/experiment-networkmodel-identification-diss/experiments/ni-pnn-1000/bin/run-seriations.sh",
+		"/Users/mark/local-research/diss/experiments/experiment-networkmodel-identification-diss/experiments/ni-pnn-1000/bin/export-data-gridengine.sh",
+		"/Users/mark/local-research/diss/experiments/experiment-networkmodel-identification-diss/experiments/ni-pnn-1000/bin/export-data.sh",
+		"/Users/mark/local-research/diss/experiments/experiment-networkmodel-identification-diss/experiments/ni-complete-1000/bin/run-simulations-gridengine.sh",
+		"/Users/mark/local-research/diss/experiments/experiment-networkmodel-identification-diss/experiments/ni-complete-1000/bin/run-seriations-gridengine.sh",
+		"/Users/mark/local-research/diss/experiments/experiment-networkmodel-identification-diss/experiments/ni-complete-1000/bin/export-data-gridengine.sh",
+		"/Users/mark/local-research/diss/experiments/experiment-networkmodel-identification-diss/experiments/ni-complete-1000/bin/build-simulations.sh",
+		"/Users/mark/local-research/diss/experiments/experiment-networkmodel-identification-diss/experiments/ni-complete-1000/bin/annotate-seriation-output.sh",
+		"/Users/mark/local-research/diss/experiments/experiment-networkmodel-identification-diss/experiments/ni-complete-1000/network-model-configuration-nnmodel.json",
+		"/Users/mark/local-research/diss/experiments/experiment-networkmodel-identification-diss/experiments/ni-pnn-1000/bin/build-networkmodel.sh",
+		"/Users/mark/local-research/diss/experiments/experiment-networkmodel-identification-diss/experiments/ni-pnn-1000/bin/build-simulations.sh",
+		"/Users/mark/local-research/diss/experiments/experiment-networkmodel-identification-diss/experiments/ni-pnn-1000/bin/run-simulations-gridengine.sh",
+		"/Users/mark/local-research/diss/experiments/experiment-networkmodel-identification-diss/.gitignore",
+		"/Users/mark/local-research/diss/experiments/experiment-networkmodel-identification-diss/README.md",
+		"/Users/mark/local-research/diss/experiments/experiment-networkmodel-identification-diss/experiments/ni-complete-1000/bin/build-networkmodel.sh",
+		"/Users/mark/tmp/testsct/bin/build-networkmodel.sh",
+		"/Users/mark/tmp/testsct/bin/simulation-postprocess.sh",
+		"/Users/mark/tmp/testsct/bin/annotate-seriation-output.sh",
+		"/Users/mark/tmp/testsct/bin/build-simulations.sh",
+		"/Users/mark/Dropbox/Research/projects/coarsegraining/experiment-ctmixtures/paper/madsen2015-ctmixtures.tex",
+		"/Users/mark/Dropbox/Research/projects/coarsegraining/experiment-ctmixtures/paper/madsen2015-ctmixtures-original.tex",
+		"/Users/mark/Dropbox/Research/projects/coarsegraining/experiment-ctmixtures/paper/notes.txt",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/dissertation-glossary.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/graphics/fig-seriationct-highlevel.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/diss-macros.sty",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/objects/slice-002.gml.txt",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/objects/slice-001.gml.txt",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/outlines/outline-cg-ct-theory.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/madsen-dissertation.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/chapters/chapter-cg-ct-theory.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/chapters/chapter-introduction.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/chapters/chapter-research-questions.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/chapter-structure.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/chapterdrafts/chapter-draft-historical-perspective.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/chapterdrafts/chapter-draft-ct-seriation-framework.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/chapterdrafts/chapter-draft-ct-models.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/setup/preamble.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/frontbackmatter/front.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/objects/seriationct-runbuilder-example.sh",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/tables/seriationct-simulation-parameters.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/graphics/fig-interval-temporal-network.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/objects/runbuilder-job-output-example.sh",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/graphics/fig-simple-temporal-network-example-gml.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/frontbackmatter/back.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/codeexamples/tn-slice-002.gml",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/codeexamples/tn-slice-001.gml",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/chapters/chapter-ct-seriation-framework.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/frontbackmatter/vita.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/chapters/chapter-seriation-as-observation.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/setup/fonts.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/chapters/chapter-model-verification.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/chapters/chapter-ct-models.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/chapters/chapter-experiments.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/chapters/chapter-future-research.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/chapters/chapter-historical-perspective.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/chapters/chapter-seriation-results.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/chapters/chapter-simulation-model-descriptions.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/chapters/chapter-classification-results.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/chapters/chapter-conclusions.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/chapter-structure-new.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/Makefile",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/outlines/outline-introduction.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/notes/notes-lineage-scale-introduction.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/setup/defines.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/dissertation-outline.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/content/outlines/cg-ct-theory.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/content/chapter-cg-ct-theory.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/content/chapter-classification-results.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/content/chapter-conclusions.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/content/chapter-ct-models.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/content/chapter-future-research.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/content/chapter-historical-perspective.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/content/outlines/introduction-outline.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/content/chapter-introduction.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/content/chapter-model-verification.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/content/chapter-outline-experiments.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/content/chapter-research-questions.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/content/chapter-seriation-as-observation.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/content/chapter-seriation-results.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/content/chapter-simulation-model-descriptions.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/content/chapter-tf-documentation.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/outlinedrafts/chapter-outline-introduction.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/madsen-dissertation.log",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/outlinedrafts/chapter-outline-cg-ct-theory.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/content/outlines/historical-perspective-outline.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/outlinedrafts/chapter-outline-historical-perspective.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/frontbackmatter/title.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation/frontbackmatter/copyright.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation-draft/content/chapter-ct-theory.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation-draft/madsen-dissertation.tex",
+		"/Users/mark/Library/Application Support/Sublime Text 3/Packages/User/build-latexmk.sublime-build",
+		"/Users/mark/Dropbox/Research/manuscripts/papers/encyc-soc-beh-evolarchy/lipomadsen2014-encyc-soc-beh-evolarchy.md",
+		"/Users/mark/Dropbox/Research/projects/structuredinformation/madsenlipo2014/paper/madsenlipo2014-semanticaxelrod.tex",
+		"/Users/mark/Dropbox/Research/manuscripts/papers/encyc-soc-beh-evolarchy/encyclopedia-soc-beh-sci-evolutionary-approaches.md",
+		"/Users/mark/Dropbox/Research/manuscripts/papers/encyc-soc-beh-evolarchy/recent-topics.md",
+		"/Users/mark/Dropbox/Research/manuscripts/papers/encyc-soc-beh-evolarchy/madsenlipo2014-encyc-soc-beh-evolarchy.md",
+		"/Users/mark/Library/Application Support/Sublime Text 2/Packages/Apache Pig/Pig.sublime-settings",
+		"/Users/mark/local-research/diss/experiments/classification/classification-experiment/DESCRIPTION",
+		"/Users/mark/Downloads/elasticsearch-0.90.5/README.textile",
+		"/Users/mark/Dropbox/Research/websites/lnraw/_posts/2013-08-27-classification-research-questions.md",
+		"/Users/mark/src/Ming-0.4.1/ming/session.py",
+		"/Users/mark/src/Ming-0.4.1/ming/datastore.py",
+		"/Users/mark/src/Ming-0.4.1/ming/base.py",
+		"/Users/mark/Dropbox/Research/Dissertation Project/analysis/simulation-calculations/inst/doc/simulationcalculations/xelatex-rmarkdown-template.tex",
+		"/Users/mark/Dropbox/Research/Dissertation Project/analysis/simulation-calculations/inst/doc/simulationcalculations/simulationcalculations.Rmd"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/mark/Dropbox/Research/Dissertation Project/manuscripts/dissertation"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"IDSS",
+			"\\1",
+			"madsen-macros.sty",
+			"cite",
+			"theme_text",
+			"$DEBUG",
+			"DEBUG",
+			"fig:pop-structure-models",
+			"slat100",
+			"useGlos",
+			"slatbig",
+			"slat100t",
+			"Toma",
+			"&\\\\",
+			"\"",
+			"ergodic"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": true,
+		"regex": false,
+		"replace_history":
+		[
+			"\\2",
+			"diss-macros.sty",
+			"element_text",
+			"$debug",
+			"\\\\ \\hline",
+			"``"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": ".env",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 304,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								54,
+								66
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7039,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1478,
+								1478
+							]
+						],
+						"settings":
+						{
+							"auto_name": "# HerokuCondaFlaskAlembic:  Application Template #",
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1125.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "templates/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1864,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1070,
+								1070
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 88.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "web.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2277,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								851,
+								851
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 462.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 528,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								203,
+								203
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "requirements.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 112,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								110,
+								110
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 293.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Makefile/Make.sublime-build",
+	"project": "hcfa.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				".Rhistory"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Dropbox/Research/websites/lnraw/lnraw.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 389.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
