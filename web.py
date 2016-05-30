@@ -6,6 +6,7 @@ import requests
 import operator
 import re
 import nltk
+import json
 from collections import Counter
 from bs4 import BeautifulSoup
 import stop_words
@@ -41,22 +42,30 @@ def get_results(job_key):
 		return "Not yet!", 202
 
 
-@app.route('/', methods=['GET','POST'])
-def index():
-	errors = []
-	results = {}
-	r = None  # prevents uninitialization error, which happens on Heroku but not my laptop
-	if request.method == 'POST':
-		# get URL from form
-		url = request.form['url']
-		if 'http://' not in url[:7]:
-			url = 'http://' + url
-		job = q.enqueue_call(
-			func=count_worker, args=(url,), result_ttl=5000
-			)
-		print(job.get_id())
 
-	return render_template('index.html', results=results)
+
+
+@app.route('/', methods=['GET', 'POST'])
+def index():
+    return render_template('index.html')
+
+
+@app.route('/start', methods=['POST'])
+def get_counts():
+    # get url
+    data = json.loads(request.data.decode())
+    url = data["url"]
+    if 'http://' not in url[:7]:
+        url = 'http://' + url
+    # start job
+    job = q.enqueue_call(
+        func=count_worker, args=(url,), result_ttl=5000
+    )
+    # return created job id
+    return job.get_id()
+
+
+
 
 
 
