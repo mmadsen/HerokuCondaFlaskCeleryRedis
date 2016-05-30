@@ -1,12 +1,12 @@
-# HerokuCondaFlaskAlembic:  Application Template #
+# HerokuCondaFlaskCeleryRedis:  Application Template #
 
 This template is suitable for setting up a Heroku application that
 runs Python applications using Anaconda Python, with the lightweight
 Flask web framework, and the Alembic/Flask-Migrate database migration
-manager.  
+manager, AND an asychronous task queue using Celery sitting on Redis.  
 
 Applications built from this template assume Heroku-Postgres as the 
-database backend (see below).  
+database backend (see below) shared by `web` and `worker` processes (for substantive data).
 
 The application as represented here assumes that we set up both `staging` and `production`
 versions of the application on Heroku, and the instructions below reflect this.  For 
@@ -97,6 +97,11 @@ To apply the migrations to Heroku applications, in production and staging:
 
 Further operations are possible with `Flask-Migrate` as well.  To downgrade schemas, use `python manage.py db downgrade` for example.  You can also get migration history with `python manage.py db history`.  
 
+### Setting up Redis and Celery ###
+
+I'm doing this in two stages -- Redis by itself first, following the RealPython code, and then I'm going to migrate it to 
+Celery since I like the abstraction on top of the message queue.  This allows easy migration to RabbitMQ or Kafka later if 
+needs or volume change.  
 
 
 
