@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, jsonify
 from flask.ext.sqlalchemy import SQLAlchemy
 import os
 import sys
@@ -10,13 +10,35 @@ from collections import Counter
 from bs4 import BeautifulSoup
 import stop_words
 
+from rq import Queue
+from rq.job import Job
+from processor import conn
+
+
+
 
 app = Flask(__name__)
 app.config.from_object(os.environ['APP_SETTINGS'])
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
+q = Queue(connection=conn)
 
-from models import Result
+from models import *
+
+
+@app.route('/results/<job_key>', methods=['GET'])
+def get_results(job_key):
+	job = Job.fetch(job_key, connection=conn)
+	if job.is_finished:
+		result = Result.query.filter_by(id=job.result).first()
+		results = sorted(
+			result.result_no_stop_words.items(),
+			key=operator.itemgetter(1),
+			reverse=True
+			)[:10]
+		return jsonify(results)
+	else:
+		return "Not yet!", 202
 
 
 @app.route('/', methods=['GET','POST'])
@@ -25,33 +47,51 @@ def index():
 	results = {}
 	r = None  # prevents uninitialization error, which happens on Heroku but not my laptop
 	if request.method == 'POST':
-		# get the URL entered
-		try:
-			url = request.form['url']
-			r = requests.get(url)
-		except:
-			errors.append("Unable to get URL - try again")
+		# get URL from form
+		url = request.form['url']
+		if 'http://' not in url[:7]:
+			url = 'http://' + url
+		job = q.enqueue_call(
+			func=count_worker, args=(url,), result_ttl=5000
+			)
+		print(job.get_id())
 
-	if r is not None:
-		(raw_counts, stop_removed_count) = count_words_from_html(r)
+	return render_template('index.html', results=results)
 
-		# package results for web display
-		results = sorted(stop_removed_count.items(), key=operator.itemgetter(1), reverse=True)[:10]
 
-		# store results in the database
-		try:
-			db_result = Result(
-				url=url,
-				result_all=raw_counts,
-				result_no_stop_words=stop_removed_count
-				)
-			db.session.add(db_result)
-			db.session.commit()
-		except Exception as e:
-			err = "Unable to add results to the database: %s" % e
-			errors.append(err)
 
-	return render_template('index.html', errors=errors, results=results)
+def count_worker(url):
+	"""
+	Given an URL, retrieves the URL and uses count_words_from_html to 
+	derive clean word counts, saving these to the database.  
+	"""
+	errors = []
+
+	# get the URL entered
+	try:
+		r = requests.get(url)
+	except:
+		err_string = "Unable to fetch url %s" % url
+		errors.append(err_string)
+		return {"error": errors}
+
+	(raw_counts, stop_removed_count) = count_words_from_html(r)
+
+	# store results in the database
+	try:
+		db_result = Result(
+			url=url,
+			result_all=raw_counts,
+			result_no_stop_words=stop_removed_count
+			)
+		db.session.add(db_result)
+		db.session.commit()
+		return db_result.id
+	except Exception as e:
+		err = "Unable to add results to the database: %s" % e
+		errors.append(err)
+		return {"error": errors}
+
 
 def count_words_from_html(page):
 	"""
@@ -76,6 +116,7 @@ def count_words_from_html(page):
 	no_stop_counts = Counter(no_stop_words)
 
 	return raw_word_counts, no_stop_counts
+
 
 
 if __name__ == '__main__':
