@@ -1,4 +1,4 @@
-web:  gunicorn web:app --daemon
+web:  gunicorn app:app 
 worker:  python processor.py
 
 
