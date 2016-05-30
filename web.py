@@ -43,8 +43,6 @@ def get_results(job_key):
 
 
 
-
-
 @app.route('/', methods=['GET', 'POST'])
 def index():
     return render_template('index.html')

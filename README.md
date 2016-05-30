@@ -103,5 +103,13 @@ I'm doing this in two stages -- Redis by itself first, following the RealPython 
 Celery since I like the abstraction on top of the message queue.  This allows easy migration to RabbitMQ or Kafka later if 
 needs or volume change.  
 
+Following the example, I added `redistogo`, but could equally have used the Heroku-Redis (although RedisTogo is monitored and seems like a fine production choice).  First, create the add-on for both remote environments:
+
+1.  `heroku addons:create redistogo:nano --remote staging`
+1.  `heroku addons:create redistogo:nano --remote prod`
+
+
+
+
 
 
