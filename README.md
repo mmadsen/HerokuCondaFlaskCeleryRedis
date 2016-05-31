@@ -108,6 +108,12 @@ Following the example, I added `redistogo`, but could equally have used the Hero
 1.  `heroku addons:create redistogo:nano --remote staging`
 1.  `heroku addons:create redistogo:nano --remote prod`
 
+### Operating the Worker on Heroku ###
+
+After pushing to Heroku (either in staging or production), you need to scale up the worker to at least one dyno, or jobs
+will simply sit in the Redis queue until they time out.  
+
+1.  `heroku scale worker=1`
 
 
 
