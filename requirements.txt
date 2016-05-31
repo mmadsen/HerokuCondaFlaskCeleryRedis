@@ -7,3 +7,5 @@ requests
 beautifulsoup4
 nltk
 stop_words
+redis
+rq
